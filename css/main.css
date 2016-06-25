@@ -1,0 +1,279 @@
+body{
+
+}
+
+h1, h2, h3, h4, h5{
+  font-family: vollkorn;
+  color:#333333;
+}
+
+h4{
+  font-size:20px;
+  text-align:left;
+}
+
+h6{
+  font-family: vollkorn;
+  color:#333333;
+  margin-top:-5px;
+}
+
+.menu{
+  position:fixed;
+  width:100%;
+  background:#000;
+  opacity:.85;
+  top:0;
+  z-index: 9;
+}
+
+
+
+.everythingContainer{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.menuIcon img{
+  max-width:50px;
+  float:right;
+  position:absolute;
+  top:-5px;
+  right:0px;
+  left:0px;
+  margin:auto;
+  z-index:11;
+}
+
+.menuSelectors{
+  color:white;
+  background:#000;
+  padding-top:2px;
+  height:25px;
+  font-family: vollkorn;
+}
+
+.menuSelectors h5{
+  color:white;
+
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.menuSelectors img{
+  margin-top:5px;
+  max-width:50px;
+}
+
+
+.selectorSubTitle{
+  text-align: center;
+  position:absolute;
+  top:70%;
+  left:20px;
+  font-size: 14px;
+  font-family: vollkorn;
+  color:white;
+  text-align: center;
+}
+
+.continents{
+    overflow-x: scroll;/*changed from scroll*/
+      display:none;
+}
+
+.countries{
+  background:#121212;
+  width:110%;
+  display:none;
+
+  overflow-x: scroll;/*changed from scroll*/
+}
+
+.continent{
+  margin-top:25px;
+  margin-bottom:50px;
+  height:50px;
+  float:left;
+}
+
+.country{
+  margin-top:25px;
+  margin-bottom:50px;
+  margin-right:50px;
+  height:50px;
+  float:left;
+}
+
+.continentSubTitle{
+  text-align: center;
+  position:absolute;
+  top:110%;
+  right:0;
+  left:0;
+  font-size: 14px;
+  font-family: vollkorn;
+  color:white;
+}
+
+.continent img{
+  max-width:100%;
+  max-height:50px;
+  position:absolute;
+  margin:auto;
+  right:0;
+  left:0;
+}
+
+
+
+.menuActive{
+  background: url('../img/trees-09.png');
+  background-size:cover;
+}
+
+
+
+.header{
+  width: 100%;
+  height:80vh;
+  background: url('../img/usa/cirque/snowClouds.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index:5;
+}
+
+
+#backcountry{
+  width: 100%;
+  height:600px;
+  background: url('../img/radialMtn.png');
+  background-size: cover;
+  background-position: bottom;
+  padding-right:0px;
+}
+
+#backcountry h2{
+  text-align:right;
+}
+
+#backcountry h4{
+  text-align:left;
+}
+
+#carryOn{
+  width: 100%;
+  height:80vh;
+  background: url('../img/radialMtn.png');
+  background-size: cover;
+  background-position: left;
+  margin-top:150px;
+  padding-right:0px;
+}
+
+#carryOn h2, h4{
+  text-align:left;
+}
+
+#lotsOf{
+  width: 100%;
+  height:80vh;
+  background: url('../img/radialMtn.png');
+  background-size: cover;
+  background-position: left;
+  margin-top:150px;
+  padding-right:0px;
+}
+
+#lotsOf h2, h4{
+  text-align:left;
+}
+
+.trips{
+  margin-top:55px;
+  height:600px;
+}
+
+.tripTeaser{
+  height:420px;
+  width:250px;
+  display:inline-block;
+  float:left;
+  margin-left:0px;
+  margin-right:5px;
+
+}
+
+.teaserInfo{
+  position:absolute;
+  top:420px;
+}
+
+.anacondaTrip{
+  background: url('../img/usa/anaconda/ptarmagin.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cirqueTrip{
+  background: url('../img/usa/cirque/snowClouds.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.npsRoadTrip{
+  background: url('../img/usa/npsRoadTrip/hoodoos.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+.chinaLife{
+  background: url('../img/china/shanghai/pagoda.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.catalunyaLife{
+  background: url('../img/spain/barna/churchly.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.nicaraguaLife{
+  background: url('../img/nica/oldChurch.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.moroccoTrip{
+  background: url('../img/morocco/stoneOfDamacles.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.seTrip{
+  background: url('../img/se/flags.jpg');
+  background-size: cover;
+  background-position: left;
+}
+
+.uaTrip{
+  background: url('../img/ua/hands.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.colombiaTrip{
+  background: url('../img/colombia/colors.jpg');
+  background-size: cover;
+  background-position: left;
+}
